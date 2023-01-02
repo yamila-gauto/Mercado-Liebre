@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <form action="/" method="post" id="form">
+        <input placeholder="Nombre y Apellido" type="text" name="nombre" id="txfNombre">
+        <input placeholder="Nombre de usuari@" type="text" name="usuario" id="txfUsuario">
+        <label class="titulo" for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="txfNacimiento">
+        <input placeholder="Domicilio" type="text" name="domicilio" id="txfDomicilio">
+        <label class="titulo" for="perfil">Perfil del usuario</label>
+        <div>
+            <input type="radio" name="perfil" id="txfPerfil" value="comprar">Comprar</input>
+            <input type="radio" name="perfil" id="txfPerfil" value="vender">Vender</input>
+        </div>
+        <label class="titulo" for="catInteres">Categorias de interes</label>
+        <div>
+            <input type="checkbox" name="catInteres" id="txfInteres" value="electro">Electro</input>
+            <input type="checkbox" name="catInteres" id="txfInteres" value="moda">Moda</input>
+            <input type="checkbox" name="catInteres" id="txfInteres" value="hogar">Hogar</input>
+            <input type="checkbox" name="catInteres" id="txfInteres" value="jugueteria">Jugueteria</input>
+            <input type="checkbox" name="catInteres" id="txfInteres" value="vidaSana">Vida Sana</input>
+        </div>
+        <label class="titulo" for="foto">Foto de usuario</label>
+        <input type="file" name="foto" id="txfFoto">
+        <input placeholder="Contraseña" type="password" name="contraseña" id="txfContraseña">
+        <input placeholder="Confirmar contraseña" type="password" name="confirmarContraseña" id="txfConfirmarContraseña">
+        <button type="submit"><a href="/">Enviar</a></button>
+        <button type="reset">Borrar datos</button>
+    </form>
+</body>
+</html>

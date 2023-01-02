@@ -1,0 +1,13 @@
+body{
+    background-color: #ebebeb;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo{
+    font-weight: bold;
+}
