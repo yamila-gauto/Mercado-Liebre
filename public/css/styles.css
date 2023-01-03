@@ -249,6 +249,9 @@ footer {
     font-family: "Roboto", sans-serif;
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 footer article div {
@@ -263,6 +266,7 @@ footer article div {
     text-align: center;
     color: #03264C;
     font-size: 2em;
+    margin-left: 5px;
 }
 
 .textofooter {
@@ -273,6 +277,10 @@ footer article div {
 .titulo-footer {
     font-size: 24px;
     text-align: center;
+}
+
+.articleFooter{
+    width: 33%;
 }
 
 #copyright {
